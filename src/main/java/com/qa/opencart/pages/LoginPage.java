@@ -28,7 +28,7 @@ public class LoginPage {
 	private By emailId = By.id("input-email");
 	private By password = By.id("input-password");
 	private By loginBtn = By.xpath("//input[@value='Login']");
-	private By forgotPwdlink = By.linkText("Forgotten Password11");
+	private By forgotPwdlink = By.linkText("Forgotten Password");
 	private By footerlinks = By.xpath("//footer//a");
 	
 	private By logoImage = By.xpath("//img[contains(@src,'opencart/image/catalog/opencart-logo.png')]");
