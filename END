@@ -1,0 +1,38 @@
+[33mcommit 7b28b55176bf3a10409c5cfd06c93330d945b8c1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: cd811c4 a7dc1e9
+Author: Aswin <63903678+AswinKumarscore@users.noreply.github.com>
+Date:   Thu Jun 1 16:48:24 2023 +0530
+
+    Merge pull request #1 from AswinKumarscore/cartpage
+    
+    added cart page to the branch:cartpage
+
+[33mcommit a7dc1e9542bfc1ddc11611e8ff272117d868fb70[m[33m ([m[1;31morigin/cartpage[m[33m, [m[1;32mcartpage[m[33m)[m
+Author: AswinKumar <aswinkumarrk@gmail.com>
+Date:   Thu Jun 1 16:41:58 2023 +0530
+
+    added comments as per The Team lead's review comments
+
+[33mcommit 7b326913a0c63dc54b283034e0d5ba245571dab2[m
+Author: AswinKumar <aswinkumarrk@gmail.com>
+Date:   Thu Jun 1 15:24:43 2023 +0530
+
+    added cart page to the branch:cartpage
+
+[33mcommit cd811c47440212c1f5c0378dfb4d00d74d223d8d[m
+Author: AswinKumar <aswinkumarrk@gmail.com>
+Date:   Thu Jun 1 12:24:19 2023 +0530
+
+    deleted demo page
+
+[33mcommit 6b913422a8f9e8b4dce204aa574cc5efdc4c3258[m
+Author: AswinKumar <aswinkumarrk@gmail.com>
+Date:   Thu Jun 1 12:17:01 2023 +0530
+
+    LoginPage modified and New Page(Demo)has been added
+
+[33mcommit 3e4afb3d199ca3a33f6574475a98a664b409be1a[m
+Author: AswinKumar <aswinkumarrk@gmail.com>
+Date:   Wed May 31 20:37:09 2023 +0530
+
+    first commit on May31

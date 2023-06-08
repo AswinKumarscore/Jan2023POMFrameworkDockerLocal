@@ -42,7 +42,7 @@ public class LoginPage {
 
 	// 3.public Page actions.methods
 	
-	@Step("getting login page tite")
+	@Step("getting login page tite....")
 	public String getLoginPageTitle() {
 		return eleUtil.waitForTitleIsAndCapture(AppConstants.LOGIN_PAGE_TITLE_VALUE,AppConstants.SHORT_DEFAULT_WAIT);
 	}
