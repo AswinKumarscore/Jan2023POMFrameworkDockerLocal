@@ -1,52 +1,65 @@
 pipeline{
     
-    agent any 
+    agent any
     
-    stages
-    {
-        stage("Build")
-        {
+    stages{
+        
+        stage("Build"){
             steps{
-                echo("build the Project")
+                echo("build the project")
             }
         }
         
-        stage("Run UnitTestcases")
-        {
+        stage("Run UTs"){
             steps{
                 echo("run unit tests")
             }
         }
         
-         stage("Deploy to dev")
-        {
+        
+        stage("Deploy to dev"){
             steps{
-                echo("deploying to dev environment")
+                echo("deploying to dev env")
             }
         }
         
         
-        stage("Deploy to QA")
-        {
+        
+        stage("Deploy to qa"){
             steps{
-                echo("deploying to qa environment")
+                echo("deploying to qa env")
             }
         }
         
-           stage("Deploy to Automation Environment")
-        {
+        stage("Run regression automation test cases"){
             steps{
-                echo("deploying to Automation Environment")
+                echo("Run regression automation test cases")
             }
         }
         
-        stage("Deploy to PRODUCTION Environment")
-        {
+        stage("Deploy to stage"){
             steps{
-                echo("deploying to production Environment")
+                echo("deploying to stage env")
             }
         }
+        
+        stage("Run sanity automation test cases"){
+            steps{
+                echo("Run sanity automation test cases")
+            }
+        }
+        
+        stage("Deploy to prod"){
+            steps{
+                echo("deploying to prod env")
+            }
+        }
+    
+        
         
         
     }
+    
+    
+    
 }
