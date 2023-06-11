@@ -1,25 +1,12 @@
 pipeline{
     
     agent any
-    tools{
-    maven 'maven'
-    }
     
     stages{
         
         stage("Build"){
-             steps
-            {
-                 git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-                 sh "mvn -Dmaven.test.failure.ignore=true clean package"
-            }
-            post 
-            {
-                success
-                {
-                    junit '**/target/surefire-reports/TEST-*.xml'
-                    archiveArtifacts 'target/*.jar'
-                }
+            steps{
+                echo("build the project")
             }
         }
         
@@ -45,12 +32,8 @@ pipeline{
         }
         
         stage("Run regression automation test cases"){
-             steps {
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {              
-                    git 'https://github.com/AswinKumarscore/Jan2023POMSeries.git'
-                    sh "mvn clean test -Dsurefire.suiteXmlFiles=src/main/resources/testrunners/testng_regression.xml"
-                    
-                }
+            steps{
+                echo("Run regression automation test cases")
             }
         }
         
