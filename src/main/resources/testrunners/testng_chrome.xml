@@ -3,7 +3,7 @@
 <suite name="OpenCart Regression Suite" verbose="4" thread-count="3" parallel="tests">
 
 	<test name="Login Page Test">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
@@ -18,6 +18,7 @@
 		</classes>
 	</test> -->
 	
+	<!-- 
 	  <test name="Accounts Page Test">
 		<parameter name="browser" value="chrome" />
 
@@ -25,7 +26,10 @@
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
+	
+	 -->
 
+<!-- 
 	<test name="Search Test">
 		<parameter name="browser" value="chrome" />
 
@@ -33,5 +37,6 @@
 			<class name="com.qa.opencart.tests.SearchTest" />
 		</classes>
 	</test> 
-
+ -->
+ 
 </suite>

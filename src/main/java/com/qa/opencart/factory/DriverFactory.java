@@ -61,7 +61,7 @@ public class DriverFactory {
 				init_remoteDriver("edge");
 			} else {
 				// run it on local
-				tlDriver.set(new EdgeDriver(optionsManager.getEdgeOptions()));
+				tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
 			}
 			break;
 		case "safari":
@@ -95,7 +95,7 @@ public class DriverFactory {
 				break;
 			case "edge":
 				tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")),optionsManager.getEdgeOptions()));
-				//tlDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), optionsManager.getEdgeOptions()));
+				
 				break;
 			default:
 				break;
